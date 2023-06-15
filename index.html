@@ -49,12 +49,15 @@
                     </div>
                     <p class="lead mb-5">Dedicated IT professional with over 3 years experience supporting clients across a variety of industries. Currently on a deep dive into Cloud technologies.
                 </p>
-                <p>Visitors: <span id=visitCount></span></p>
+                <!-- <p>Visitors: <span id=visitCount></span></p> -->
+                <div class="counter-number font-os font-size-50 active bigger-text" style="font-size:25px;">Couldn't read views</div>
+
+                
                     <div class="social-icons">
+                        <a class="social-icon" href="https://girishluckhun.com"><i class="fa fa-home" aria-hidden="true"></i>
                         <a class="social-icon" href="https://www.linkedin.com/in/girish-luckhun-7a19bb184/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/RitLuck"><i class="fab fa-github"></i></a>
                         <a class="social-icon" href="https://twitter.com/sudo_gluck"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="https://girishluckhun.com"><i class="fa fa-home" aria-hidden="true"></i>
                         <a class="social-icon" href="girishluckhun@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -95,7 +98,7 @@
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Systems Administrator</h3>
+                            <h3 class="mb-0">Linux Systems Administrator</h3>
                             <div class="subheading mb-3">Linkbynet</div>
                             <ul>
                                 <li>Responding to and resolving assigned tickets in the IT operations ticket queue</li>
@@ -103,6 +106,8 @@
                                 <li>Utilized Terraform to provision and manage VMs on multiple cloud platforms, including Azure, AWS, and VMware, ensuring consistent and automated infrastructure deployment.</li>
                                 <li>Leveraged Ansible to automate configuration management tasks on Linux servers, ensuring consistent and efficient provisioning, installation, and configuration of software and services.</li>
                                 <li>Upgrade from McAfee to SentinelOne on Windows and Linux servers, enhancing endpoint protection capabilities and ensuring advanced security measures.</li>
+                                <li>Bash and python scription.</li>
+                                <li>Provided customer support services.</li>
                                 <li>Created and managed DNS records on AWS Route 53, enabling efficient and accurate resolution of domain names to associated resources.</li>
                                 <li>Created comprehensive technical documentation, detailing system configurations, processes, procedures, and best practices, to facilitate knowledge sharing and ensure clear and concise information for team members.</li>
                                 <li>Provided mentorship and guidance to newcomers and interns, offering support, sharing knowledge, and fostering their professional growth and development.</li>
@@ -110,6 +115,22 @@
                             </div>
                             <div class="flex-shrink-0"><span class="text-primary">October 2020 - August 2022</span></div>
                         </div>   
+                        
+                        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                            <div class="flex-grow-1">
+                                <h3 class="mb-0">Application Analyst</h3>
+                                <div class="subheading mb-3">Ceridian</div>
+                                <ul>
+                                    <li>Apply technical knowledge and expertise to provide support services to clients, ensuring delivery of solutions according to agreed schedules and standards.</li>
+                                    <li>Communicate effectively to deliver excellent customer service, providing support via email and phone.</li>
+                                    <li>Escalate risks or issues to Team Lead or Lead Engineer as needed to ensure project delivery schedules are met.</li>
+                                    <li>Demonstrate proficiency in computer skills, SQL, SQL Server and software development concepts.</li>
+                                    <li>Meet SLAs (Service Level Agreements) to ensure client satisfaction.</li>
+                                </ul>
+                            </div>
+                            <div class="flex-shrink-0"><span class="text-primary">June 2019 - Febuary 2020</span></div>
+                        </div>
+
                     </div>
             </section>
             <hr class="m-0" />
@@ -121,11 +142,28 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">University of Mauritius</h3>
                             <div>Degree in BSc(Hons) Electronics with Computer Science</div>
+                            <div class="publication">
+                                Publications: 
+                                <strong>
+                                    <a href="https://link.springer.com/chapter/10.1007/978-3-030-90618-4_18">"A Mobile Application for Real-Time Detection of Road Traffic Violations"</a>
+                                </strong>
+                            </div>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2016 - 2019</span></div>
                     </div>
                 </div>
             </section>
+            
+            <style>
+                .publication {
+                    margin-top: 10px;
+                }
+            </style>
+            
+
+            
+            
+            
             <hr class="m-0" />
             <!-- Projects-->
             <section class="resume-section" id="projects">
@@ -143,10 +181,10 @@
                             ● Pointed a DNS subdomain name to the CloudFront distribution<br>
                             ● Created a visitor counter using Javascript and used Amazon's DynamoDB as a database to store the visitor counter.<br>
                             ● Created an API using AWS's API Gateway and Lambda services.<br>
-                            ● Leveraged Python Boto3 and Lambda to automate & serve changes to/from DynamoDB using API Gateway<br>
+                            <!-- ● Leveraged Python Boto3 and Lambda to automate & serve changes to/from DynamoDB using API Gateway<br>
                             ● Created a GitHub repository for my back-end and front-end code.<br>
                             ● Set up Cypress Test in GitHub actions to test API and website.<br>
-                        <p> ● Set up CI/CD deployment with GitHub actions for backend and frontend to automate applying AWS resources using Terraform<br></p>
+                        <p> ● Set up CI/CD deployment with GitHub actions for backend and frontend to automate applying AWS resources using Terraform<br></p> -->
                             
                             <h5><p>My Cloud Resume Challenge blog:</p></h5>
                             <p>in progress</p>
@@ -181,6 +219,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="dist/js/scripts.js"></script>
-        <script src="/backend/main.js"></script>
+        <script src="./index.js"></script>
     </body>
 </html>
